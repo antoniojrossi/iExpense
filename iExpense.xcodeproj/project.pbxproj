@@ -13,6 +13,9 @@
 		F033ADCD246EF2580099B94A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F033ADCC246EF2580099B94A /* Assets.xcassets */; };
 		F033ADD0246EF2580099B94A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F033ADCF246EF2580099B94A /* Preview Assets.xcassets */; };
 		F033ADD3246EF2580099B94A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F033ADD1246EF2580099B94A /* LaunchScreen.storyboard */; };
+		F033ADDB246EFCA40099B94A /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F033ADDA246EFCA40099B94A /* ExpenseItem.swift */; };
+		F033ADDD246EFD010099B94A /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F033ADDC246EFD010099B94A /* Expenses.swift */; };
+		F033ADDF246F032C0099B94A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F033ADDE246F032C0099B94A /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F033ADCF246EF2580099B94A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F033ADD2246EF2580099B94A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F033ADD4246EF2580099B94A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F033ADDA246EFCA40099B94A /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		F033ADDC246EFD010099B94A /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		F033ADDE246F032C0099B94A /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				F033ADC6246EF2570099B94A /* AppDelegate.swift */,
 				F033ADC8246EF2570099B94A /* SceneDelegate.swift */,
 				F033ADCA246EF2570099B94A /* ContentView.swift */,
+				F033ADDE246F032C0099B94A /* AddView.swift */,
+				F033ADDA246EFCA40099B94A /* ExpenseItem.swift */,
+				F033ADDC246EFD010099B94A /* Expenses.swift */,
 				F033ADCC246EF2580099B94A /* Assets.xcassets */,
 				F033ADD1246EF2580099B94A /* LaunchScreen.storyboard */,
 				F033ADD4246EF2580099B94A /* Info.plist */,
@@ -146,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F033ADDD246EFD010099B94A /* Expenses.swift in Sources */,
 				F033ADC7246EF2570099B94A /* AppDelegate.swift in Sources */,
+				F033ADDF246F032C0099B94A /* AddView.swift in Sources */,
 				F033ADC9246EF2570099B94A /* SceneDelegate.swift in Sources */,
 				F033ADCB246EF2570099B94A /* ContentView.swift in Sources */,
+				F033ADDB246EFCA40099B94A /* ExpenseItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
